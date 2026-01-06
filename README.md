@@ -2,6 +2,7 @@
 This repository contains a Python-based bioinformatics pipeline developed to analyze the impact of SARS-CoV-2 mutations on CD4+ T cell epitopes, predict HLA Class II binding affinities using NetMHCIIpan 4.1, and visualize epitope conservation across variants (BA.2.86, JN.1, LP.8.1, NB.1.8.1, XEC)
 
 **🔬 Research Workflow Summary: From Mutation to Conservation**
+
 This repository provides a multi-stage bioinformatics framework designed to answer a central thesis question: To what extent do emergent Omicron sub-variants escape or preserve CD4+ T cell immunity compared to the ancestral strain?
 
 The five pipelines work in a cascading logic:
