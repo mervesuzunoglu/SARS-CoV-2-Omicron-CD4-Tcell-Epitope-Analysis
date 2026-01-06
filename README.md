@@ -3,19 +3,16 @@ This repository contains a Python-based bioinformatics pipeline developed to ana
 
 **🔬 Research Workflow Summary: From Mutation to Conservation**
 
-This repository provides a multi-stage bioinformatics framework designed to answer a central thesis question: To what extent do emergent Omicron sub-variants escape or preserve CD4+ T cell immunity compared to the ancestral strain?
+This repository provides a multi-stage bioinformatics framework developed to evaluate the extent to which emergent Omicron sub-variants escape or preserve CD4+ T cell immunity relative to the ancestral strain.
 
-The five pipelines work in a cascading logic:
+The analytical process is structured in a cascading logic across five distinct pipelines:
 
-Identification (Pipeline 01): We first map the raw mutational landscape, identifying exactly which epitopes are altered by amino acid substitutions in variants like XEC and JN.1.
+Mutational Mapping (Pipeline 01): The raw mutational landscape is characterized, identifying specific epitopes altered by amino acid substitutions in lineages such as XEC and JN.1.
 
-Quantification (Pipeline 02): We then measure the "biological cost" of those mutations, calculating the fold-change in binding affinity (IC 
-50
-​	
-  or percentile ranks) to see if the virus is actively weakening HLA-II binding.
+Affinity Quantification (Pipeline 02): The biological impact of identified mutations is measured by calculating the fold-change in binding affinity (percentile ranks), determining if viral evolution results in the attenuation of HLA-II binding.
 
-Integration (Pipeline 03): Using UpSet plots and multi-variant intersections, we visualize the shared "immunological footprint" across the entire Omicron family, moving beyond simple one-to-one comparisons.
+Cross-Variant Integration (Pipeline 03): The shared immunological footprint across the Omicron phylogeny is visualized through UpSet plots and multi-variant intersections, allowing for the identification of overlapping epitope sets.
 
-Localization (Pipeline 04): We specifically project these changes onto the Spike Protein structural domains. This reveals whether immune pressure is concentrated on critical areas like the RBD or if the S2 subunit remains a "safe haven" for T cell recognition.
+Structural Localization (Pipeline 04): Epitope loss is projected onto specific Spike protein structural domains. This analysis determines if immune evasion is concentrated within the Receptor Binding Domain (RBD) or if the S2 subunit maintains stability in T cell recognition.
 
-Synthesis (Pipeline 05): Finally, we isolate the Conserved Core Immunome. This identifies the high-confidence peptide–HLA pairs that remain stable across all evolutionary shifts, serving as potential targets for future pan-sarbecovirus vaccines.
+Core Immunome Synthesis (Pipeline 05): The Universal Conserved Core is isolated, identifying high-confidence peptide–HLA pairs that remain functionally intact across all analyzed variants. These stable targets are highlighted for their potential relevance in pan-sarbecovirus vaccine design.
