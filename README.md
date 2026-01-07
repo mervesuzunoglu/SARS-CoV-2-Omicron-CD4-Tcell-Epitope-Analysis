@@ -16,3 +16,7 @@ Cross-Variant Integration (Pipeline 03): The shared immunological footprint acro
 Structural Localization (Pipeline 04): Epitope loss is projected onto specific Spike protein structural domains. This analysis determines if immune evasion is concentrated within the Receptor Binding Domain (RBD) or if the S2 subunit maintains stability in T cell recognition.
 
 Core Immunome Synthesis (Pipeline 05): The Universal Conserved Core is isolated, identifying high-confidence peptide–HLA pairs that remain functionally intact across all analyzed variants. These stable targets are highlighted for their potential relevance in pan-sarbecovirus vaccine design.
+
+All analyses, scripts, and code structures in this repository have been exclusively developed for the PhD thesis of *Merve Saide Uzunoğlu*.
+
+These materials are shared to ensure scientific transparency and reproducibility of the study results. While open for academic review, any unauthorized reproduction or use in other publications without proper citation is strictly prohibited.
